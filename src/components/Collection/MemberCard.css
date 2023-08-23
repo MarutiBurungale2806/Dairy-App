@@ -1,0 +1,42 @@
+/* styles.css */
+
+/* Styling for the custom-card class */
+.custom-card {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 300px;
+  margin: 20px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the card-title class */
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Styling for the card-text class */
+.card-text {
+  font-size: 16px;
+}
+
+/* Grid layout for card content */
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+/* Styling for labels */
+.card-label {
+  font-weight: bold;
+}
+
+/* Styling for special values like date and amount */
+.card-value {
+  color: black;
+}

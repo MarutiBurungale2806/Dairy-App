@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* App.css */
+.App {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.header .navbar-item {
+  color: #fff;
+  text-decoration: none;
+}
+
+.collection-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.collection-form {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
